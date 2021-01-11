@@ -14,3 +14,7 @@ installations:
 settings:
   title-lint:
     regex: "[A-Z]+-[0-9]+"
+
+org_settings:
+  title-lint:
+    final: "[A-Z]+-[0-9]+"
