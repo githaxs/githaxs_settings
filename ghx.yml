@@ -14,4 +14,3 @@ installations:
 settings:
   title-lint:
     regex: "[A-Z]+-[0-9]+"
-    final: true
