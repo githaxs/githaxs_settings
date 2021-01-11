@@ -17,4 +17,5 @@ settings:
 
 org_settings:
   title-lint:
-    final: "[A-Z]+-[0-9]+"
+    final:
+      regex: "[A-Z]+-[0-9]+"
