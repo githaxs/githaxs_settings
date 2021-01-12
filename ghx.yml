@@ -4,7 +4,9 @@ title-lint:
     repos:
       - base-task
       - title-lint
-  settings:
+  repo_settings:
+    regex: foo
+  org_settings:
     final:
       regex: "[A-Z]+-[0-9]+"
     default:
