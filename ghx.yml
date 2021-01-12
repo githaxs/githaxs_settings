@@ -1,6 +1,6 @@
 installations:
   title-lint:
-    org: true
+    org: false
     repos:
       - base-task
       - title-lint
