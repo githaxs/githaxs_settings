@@ -5,7 +5,7 @@ title-lint:
       - base-task
       - title-lint
   repo_settings:
-    regex: foo
+    regex: "fix|feat: .*"
   org_settings:
     final:
       regex: "[A-Z]+-[0-9]+"
