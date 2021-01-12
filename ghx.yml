@@ -1,21 +1,11 @@
-installations:
-  title-lint:
-    org: false
+title-lint:
+  installation:
+    org: true
     repos:
       - base-task
       - title-lint
-    topics:
-      - api
-      - web
-    languages:
-      - python
-      - go
-
-settings:
-  title-lint:
-    regex: "[A-Z]+-[0-9]+"
-
-org_settings:
-  title-lint:
+  settings:
     final:
       regex: "[A-Z]+-[0-9]+"
+    default:
+      foo: bar
