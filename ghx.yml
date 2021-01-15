@@ -13,7 +13,7 @@ title-lint:
       foo: bar
 pr-too-big:
   installation:
-    org:true
+    org: true
   org_settings:
     final:
       max_changed_files: 30
