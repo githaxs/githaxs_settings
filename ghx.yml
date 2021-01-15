@@ -11,3 +11,10 @@ title-lint:
       regex: "[A-Z]+-[0-9]+"
     default:
       foo: bar
+pr-too-big:
+  installation:
+    org:true
+  org_settings:
+    final:
+      max_changed_files: 30
+      max_additions: 2000
