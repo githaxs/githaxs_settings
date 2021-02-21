@@ -16,5 +16,5 @@ pr-too-big:
     org: true
   org_settings:
     final:
-      max_changed_files: 30
+      max_changed_files: 1
       max_additions: 2000
