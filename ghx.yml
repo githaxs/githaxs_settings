@@ -18,3 +18,11 @@ pr-too-big:
     final:
       max_changed_files: 1
       max_additions: 2000
+code-freeze:
+  installation:
+    org: true
+  org_settings:
+    final:
+      block_times:
+        - "* * * * 6,0"
+        - "* 1-5,17-23 * * 1-5"
