@@ -1,3 +1,6 @@
+pytest:
+  installation:
+    org: true
 title-lint:
   installation:
     org: true
