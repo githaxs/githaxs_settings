@@ -1,3 +1,7 @@
+checkov:
+ installation:
+   repo_languages:
+     - hcl
 prettier:
   installation:
     org: true
