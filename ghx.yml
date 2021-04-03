@@ -1,3 +1,11 @@
+prettier:
+  installation:
+    org: true
+  org_settings:
+    final:
+      prettier_config:
+        singleQuote: true
+        semi: false
 pre-commit-hooks:
   installation:
     org: true
