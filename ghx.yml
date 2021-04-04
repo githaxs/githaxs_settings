@@ -1,3 +1,6 @@
+black:
+  installation:
+    org: true
 checkov:
  installation:
    org: true
