@@ -21,18 +21,15 @@ pytest:
   installation:
     org: true
 title-lint:
+  settings:
+    org:
+      final:
+        regex: "fix|feat: .*"
   installation:
     org: true
     repos:
       - base-task
       - title-lint
-  repo_settings:
-    regex: "fix|feat: .*"
-  org_settings:
-    final:
-      regex: "[A-Z]+-[0-9]+"
-    default:
-      foo: bar
 pr-too-big:
   installation:
     org: true
