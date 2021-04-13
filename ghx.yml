@@ -24,7 +24,7 @@ title-lint:
   settings:
     org:
       final:
-        regex: "fix|feat: .*"
+        regex: "(fix|feat): .*"
   installation:
     org: true
     repos:
