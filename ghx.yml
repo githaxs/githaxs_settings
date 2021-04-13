@@ -9,11 +9,12 @@ checkov:
 prettier:
   installation:
     org: true
-  org_settings:
-    final:
-      prettier_config:
-        singleQuote: true
-        semi: false
+  settings:
+    org:
+      final:
+        prettier_config:
+          singleQuote: true
+          semi: false
 pre-commit-hooks:
   installation:
     org: true
@@ -33,15 +34,17 @@ title-lint:
 pr-too-big:
   installation:
     org: true
-  org_settings:
-    final:
-      max_changed_files: 20
-      max_additions: 2000
+  settings:
+    org:
+      final:
+        max_changed_files: 20
+        max_additions: 2000
 code-freeze:
   installation:
     org: true
-  org_settings:
-    final:
-      block_times:
-        - "* * * * 6,0"
-        - "* 1-5,17-23 * * 1-5"
+  settings:
+    org:
+      final:
+        block_times:
+          - "* * * * 6,0"
+          - "* 1-5,17-23 * * 1-5"
