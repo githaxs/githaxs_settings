@@ -5,10 +5,12 @@ checkov:
  installation:
    org: true
    repo_languages:
-     - hcl
+     - HCL
 prettier:
   installation:
-    org: true
+    repo_languages:
+      - JavaScript
+      - TypeScript
   settings:
     org:
       final:
