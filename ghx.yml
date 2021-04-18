@@ -1,4 +1,8 @@
 terraform-fmt:
+  settings:
+    org:
+      final:
+        auto_fix: true
   installation:
     org: true
 black:
