@@ -1,3 +1,6 @@
+terraform-fmt:
+  installation:
+    org: true
 black:
   installation:
     org: true
