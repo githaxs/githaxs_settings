@@ -14,10 +14,6 @@ checkov:
    repo_languages:
      - HCL
 prettier:
-  settings:
-    org:
-      final:
-        auto_fix: true
   installation:
     repo_languages:
       - JavaScript
@@ -25,6 +21,7 @@ prettier:
   settings:
     org:
       final:
+        auto_fix: true
         prettier_config:
           singleQuote: true
           semi: false
