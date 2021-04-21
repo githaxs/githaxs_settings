@@ -1,3 +1,9 @@
+cspell:
+  installation:
+    org: true
+hadolint:
+  installation:
+    org: true
 shellcheck:
   installation:
     org: true
