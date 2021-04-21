@@ -1,3 +1,6 @@
+shellcheck:
+  installation:
+    org: true
 pylint:
   installation:
     org: true
