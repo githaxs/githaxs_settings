@@ -1,3 +1,6 @@
+pylint:
+  installation:
+    org: true
 terraform-fmt:
   settings:
     org:
