@@ -13,6 +13,9 @@ pylint:
 rubocop:
   installation:
     org: true
+phpstan:
+  installation:
+    org: true
 terraform-fmt:
   settings:
     org:
