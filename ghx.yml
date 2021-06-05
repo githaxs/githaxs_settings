@@ -10,6 +10,9 @@ shellcheck:
 pylint:
   installation:
     org: true
+rubocop:
+  installation:
+    org: true
 phpstan:
   installation:
     org: true
