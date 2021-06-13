@@ -16,7 +16,7 @@ rubocop:
   settings:
     org:
       final:
-        prettier_config:
+        rubocop_config:
           singleQuote: true
           semi: false
 phpstan:
