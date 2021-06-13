@@ -13,6 +13,12 @@ pylint:
 rubocop:
   installation:
     org: true
+  settings:
+    org:
+      final:
+        prettier_config:
+          singleQuote: true
+          semi: false
 phpstan:
   installation:
     org: true
