@@ -45,7 +45,7 @@ prettier:
   settings:
     org:
       final:
-        auto_fix: true
+        auto_fix: false
         prettier_config:
           singleQuote: true
           semi: false
