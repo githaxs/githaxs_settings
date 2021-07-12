@@ -1,3 +1,6 @@
+phplint:
+  installation:
+    org: true
 cspell:
   installation:
     org: true
